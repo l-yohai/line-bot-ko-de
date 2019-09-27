@@ -30,9 +30,9 @@ def is_hangul(text):
 
 def translate(text):
     if is_hangul(text):
-        return _translate(text, 'ko', 'de', 'en', 'ko')
+        return _translate(text, 'ko', 'de')
     else:
-        return _translate(text, 'de', 'ko', 'ko', 'en')
+        return _translate(text, 'de', 'ko')
 
 
 def _translate(text, source='de', target='ko'):
