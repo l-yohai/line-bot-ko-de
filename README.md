@@ -10,7 +10,8 @@ https://github.com/hunkim/line-papago-bot
 heroku -> app.py & python.py -> deploy
 
 Webhook link = "Your heroku URL"/callback
-Line bot develop -> API enable -> Webhook use
+Line bot develop -> API enable -> Webhook use.
+
 Finish!
 
 @heroku
