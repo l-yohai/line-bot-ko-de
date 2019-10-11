@@ -4,12 +4,12 @@ import re
 import os
 import sys
 
-client_id = os.getenv('PAPAGO_CLIENT_ID', "l4KfgnGN5dR6QsMj_uyx")
+client_id = os.getenv('PAPAGO_CLIENT_ID', "YOUR_CLIENT_ID")
 if client_id is None:
     print('Specify PAPAGO_CLIENT_ID as environment variable.')
     sys.exit(1)
 
-client_secret = os.getenv('PAPAGO_CLIENT_SECRET', "vCJbdl8ujf")
+client_secret = os.getenv('PAPAGO_CLIENT_SECRET', "YOUR_CLIENT_SECRET")
 if client_secret is None:
     print('Specify PAPAGO_CLIENT_SECRET as environment variable.')
     sys.exit(1)
