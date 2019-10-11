@@ -36,8 +36,8 @@ from papago import translate
 app = Flask(__name__)
 
 # get channel_secret and channel_access_token from your environment variable
-channel_secret = os.getenv('LINE_CHANNEL_SECRET', "dea311ef6592e3678d184418c6697f36")
-channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', "cw7F3J59Td8JQoq8PMzfp6grImGBUPjYkuZJ2/MNVaIKwdaLe//51hKxSx0PmODdz7n7t1jDtZUBs3vWMWUWLrY83/RpdwQpMP7D/DH2z2igHEhoa6tsn5mhr/gCy/uSVH4Gi2dOTpvwuUqFEIFkqQdB04t89/1O/w1cDnyilFU=")
+channel_secret = os.getenv('LINE_CHANNEL_SECRET', "YOUR_CHANNEL_SECRET")
+channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', "YOUR_CHANNEL_ACCESS_TOKEN")
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
